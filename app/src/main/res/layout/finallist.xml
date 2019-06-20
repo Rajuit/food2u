@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:background="#fff"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivfood"
+                android:layout_width="120sp"
+                android:layout_height="120sp"
+                android:background="@drawable/chick"/>
+
+
+        </FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:text="Menu Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="30dp"
+            android:layout_height="30sp"
+            android:padding="80dp"
+            android:paddingBottom="80dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="80dp"
+            android:background="@drawable/delete"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Price  "
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/tvmul"
+        android:layout_width="30sp"
+        android:layout_height="20sp"
+        android:background="@drawable/delete"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/qtybox"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:text=" qty "
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+         android:text="  =  " />
+    <TextView
+        android:id="@+id/pricetotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:id="@+id/plus"
+            android:padding="60dp"
+            android:paddingBottom="60dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="60dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/ic_plus"/>
+
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:id="@+id/tvsp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:text="       "
+            />
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40sp"
+            android:id="@+id/minus"
+            android:padding="60dp"
+            android:paddingBottom="60dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="60dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/ic_minus"/>
+
+</LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+
